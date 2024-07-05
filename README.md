@@ -119,7 +119,7 @@ cd backend
 ```
 Copie o arquivo .env.example para .env e configure as variáveis de ambiente:
 ``` bash
-echo "Copiar código"
+ 
 cp .env.example .env
 ```
 Edite o arquivo .env conforme necessário.
@@ -227,7 +227,7 @@ Utilize axios para fazer requisições HTTP ao backend.
 npm install axios
 ``` 
 ```  jsx
-Copiar código
+
 import axios from 'axios';
 
 const fetchImages = async () => {
