@@ -352,7 +352,8 @@ body {
 
 .dicom-viewer-container .position-absolute {
     border-radius: 0.25rem;
-    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
     font-size: 0.75rem;
 }
 
@@ -521,3 +522,4 @@ body {
     color: #212529 !important;
     border-color: #ffc107 !important;
 }
+
